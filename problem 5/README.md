@@ -28,12 +28,12 @@ A simple backend server built with Express.js and TypeScript, providing CRUD ope
    npm install
    ```
 
-3. Configure environment variables:
+3. Configure environment variables (Optional):
    - Create a `.env` file in the project root with:
      ```env
      PORT=3000
-     URL=http://localhost:3000
      ```
+If no env file created -> default PORT will be 3000
 
 4. Build the project:
    ```bash
